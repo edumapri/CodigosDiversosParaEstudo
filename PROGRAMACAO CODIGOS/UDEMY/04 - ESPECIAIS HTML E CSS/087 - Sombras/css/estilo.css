@@ -1,0 +1,16 @@
+#caixa{
+    width: 300px;
+    height: 300px;;
+    padding: 8px;
+    margin: 28px;
+    background: #009670;
+    /*box-shadow: 20px 20px 20px black;box-shadow: 20px 20px 20px o terceiro item indica o efeito blur e em rgba(x,y,z,w) o w indica opacidade da sombra*/ 
+    box-shadow: 20px 20px 20px 10px black;/*O quarto valor "10px" indica o espalhamento*/
+}
+
+#caixa h1{
+    color: white;
+    /*text-shadow: 20px 20px black;Primeiro valor horizontal e segundo vertical*/
+    text-shadow: 20px 20px 5px rgba(0,0,0,0.5);/*text-shadow: 20px 20px 5px o terceiro item indica o efeito blur e em rgba(x,y,z,w) o w indica opacidade da sombra*/ 
+}
+

@@ -1,0 +1,53 @@
+/* Id #banner */
+#banner{
+    width: 100%;
+}
+
+/* Class .principal */
+.principal{
+    background: #cccccc;
+    padding: 30px;
+}
+
+.titulo-principal{
+    padding-left: 20px;
+}
+
+.titulo-centralizado{
+    text-align: center;
+}
+
+/* Seletor p */
+p{
+    text-align: center;
+}
+
+#missao{
+    font-size: 20px;
+}
+
+/* Seletores em e strong */
+em strong{
+    color: #ff0000;
+}
+
+/* Class .itens */
+.itens{
+    font-style: italic;
+}
+
+.beneficios{
+    background: #ffffff;
+    padding: 20px;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagembeneficios{
+    width: 50%;
+}

@@ -1,0 +1,16 @@
+/*** Estilizando tabelas ***/
+body{
+    font-family: "trebuchet MS", Heveltica, sans-serif;
+}
+
+table {
+    width: 600px;
+    border-collapse: separate; /*collapse*/
+}
+
+th, td{
+    border: 1px solid red;
+    padding: 7px;
+}
+
+
