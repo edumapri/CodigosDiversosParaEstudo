@@ -1,0 +1,64 @@
+Verificar versão do git
+
+	> git --version
+	> git init
+	> git status
+	
+
+
+Configurar usuário e e-mail no git hub
+
+	> git config --global user.name "edumapri" 
+	> git config --global user.email "edumapri@gmail.com"
+
+Criar a pasta e entrar nela
+	> cd /home/eosilva
+	> mkdir git
+	> cd git
+
+Crie o no git um repositório, no meu exemplo foi criado o repositório "estudo" com o seguinte link:
+	> https://github.com/edumapri/estudo.git
+	> git remote add origin https://github.com/edumapri/estudo.git
+
+Clonar repositório do git
+	> git clone https://github.com/edumapri/estudo.git
+
+Enviar arquivos e diretórios de testes
+	> cp  -r /home/eosilva/codigos/* /home/eosilva/git
+
+Adicionar e confirmar
+	> git remote add origin git@github.com:edumapri/estudo.git
+	> git add *
+	> git commit -m "Códigos de estudo"
+
+Enviando alterações
+	> git push
+	**** > git push origin master
+
+
+Repositório de estudos no git
+
+HTTPS: https://github.com/edumapri/codigos.git
+SSH: git@github.com:edumapri/codigos.git
+
+…or create a new repository on the command line
+echo "# codigos" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/edumapri/codigos.git
+git push -u origin main
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/edumapri/codigos.git
+git branch -M main
+git push -u origin main
+	
+
+
+
+
+
+
